@@ -1,0 +1,72 @@
+/* SectionsList.css */
+.sections-list-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.sections-list-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+  font-size: 1.8rem;
+}
+
+.sections-list-container table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.sections-list-container th,
+.sections-list-container td {
+  padding: 12px;
+  text-align: left;
+  font-size: 1rem;
+  color: #333;
+  border-bottom: 1px solid #ddd;
+}
+
+.sections-list-container th {
+  background-color: #4CAF50;
+  color: #fff;
+  font-weight: 600;
+}
+
+.sections-list-container tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.sections-list-container tr:hover {
+  background-color: #e9f7e7;
+}
+
+.sections-list-container td {
+  color: #555;
+}
+
+.sections-list-container td:last-child {
+  text-align: center;
+}
+
+.sections-list-container th, .sections-list-container td {
+  padding: 12px;
+  text-align: left;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .sections-list-container table {
+    font-size: 0.9rem;
+  }
+
+  .sections-list-container th, .sections-list-container td {
+    padding: 8px;
+  }
+}
